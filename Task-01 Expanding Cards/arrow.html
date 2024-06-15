@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{display: flex;
+        border: 2px solid red;}
+
+        .inner{
+            border: 2px solid black;
+            height: 50px;width: 50px;;
+        }
+        @media (max-width:150px){
+            .outer{flex-direction: column;}
+        }
+      
+    </style>
+</head>
+
+<body>
+   
+<div class="outer">
+    <div class="inner"></div>
+    <div class="inner"></div>
+    <div class="inner"></div>
+    <div class="inner"></div>
+</div>
+</body>
+
+</html>
